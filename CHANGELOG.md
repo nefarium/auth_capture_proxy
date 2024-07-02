@@ -6,86 +6,125 @@
 
 ### Fix
 
-* Fix multiple / detection in urls ([`2352e22`](https://github.com/alandtse/auth_capture_proxy/commit/2352e22cabcf9c5fb39499f588026bac2462d18d))
+- Fix multiple / detection in urls ([`2352e22`](https://github.com/alandtse/auth_capture_proxy/commit/2352e22cabcf9c5fb39499f588026bac2462d18d))
 
 ## v1.2.0 (2023-05-08)
+
 ### Feature
-* Require python 3.10 ([`9ede8e1`](https://github.com/alandtse/auth_capture_proxy/commit/9ede8e1961d9cd3ee188bd8145810c1003a004a3))
+
+- Require python 3.10 ([`9ede8e1`](https://github.com/alandtse/auth_capture_proxy/commit/9ede8e1961d9cd3ee188bd8145810c1003a004a3))
 
 ## v1.1.6 (2023-05-08)
+
 ### Fix
-* Require python 3.9 or greater ([`5ba1afd`](https://github.com/alandtse/auth_capture_proxy/commit/5ba1afdaf2cbdf16a82c7f40d2d56d145b8b369f))
+
+- Require python 3.9 or greater ([`5ba1afd`](https://github.com/alandtse/auth_capture_proxy/commit/5ba1afdaf2cbdf16a82c7f40d2d56d145b8b369f))
 
 ## v1.1.5 (2023-05-07)
+
 ### Fix
-* **access_url:** Do not add port if 0 ([`ba9acb4`](https://github.com/alandtse/auth_capture_proxy/commit/ba9acb49f106a76c32f95ef3ef871444309597e0))
+
+- **access_url:** Do not add port if 0 ([`ba9acb4`](https://github.com/alandtse/auth_capture_proxy/commit/ba9acb49f106a76c32f95ef3ef871444309597e0))
 
 ## v1.1.4 (2022-06-25)
+
 ### Fix
-* Fix swap_url for http converted urls ([`2b672fa`](https://github.com/alandtse/auth_capture_proxy/commit/2b672fa3a9c86ecf4dd64d7fc7d66a8a7fa1d5ff))
+
+- Fix swap_url for http converted urls ([`2b672fa`](https://github.com/alandtse/auth_capture_proxy/commit/2b672fa3a9c86ecf4dd64d7fc7d66a8a7fa1d5ff))
 
 ## v1.1.3 (2022-02-25)
+
 ### Fix
-* Bump multidict ([`bf8c7c1`](https://github.com/alandtse/auth_capture_proxy/commit/bf8c7c13252d2042f07a8ad2de1e6aba188e6985))
+
+- Bump multidict ([`bf8c7c1`](https://github.com/alandtse/auth_capture_proxy/commit/bf8c7c13252d2042f07a8ad2de1e6aba188e6985))
 
 ## v1.1.2 (2022-02-25)
+
 ### Fix
-* Bump dependencies ([#19](https://github.com/alandtse/auth_capture_proxy/issues/19)) ([`76c9344`](https://github.com/alandtse/auth_capture_proxy/commit/76c9344d656bcff61996fb335b94ecf9c3b35804))
+
+- Bump dependencies ([#19](https://github.com/alandtse/auth_capture_proxy/issues/19)) ([`76c9344`](https://github.com/alandtse/auth_capture_proxy/commit/76c9344d656bcff61996fb335b94ecf9c3b35804))
 
 ## v1.1.1 (2021-11-23)
+
 ### Fix
-* Enable redirect following ([#18](https://github.com/alandtse/auth_capture_proxy/issues/18)) ([`0f011ac`](https://github.com/alandtse/auth_capture_proxy/commit/0f011accbb50412a54a9ca0a853cceb5a88a3ce6))
+
+- Enable redirect following ([#18](https://github.com/alandtse/auth_capture_proxy/issues/18)) ([`0f011ac`](https://github.com/alandtse/auth_capture_proxy/commit/0f011accbb50412a54a9ca0a853cceb5a88a3ce6))
 
 ## v1.1.0 (2021-11-23)
+
 ### Feature
-* Bump for release ([`9ff7b15`](https://github.com/alandtse/auth_capture_proxy/commit/9ff7b159e91902801345b95a0d9cdcf24e5a8d04))
+
+- Bump for release ([`9ff7b15`](https://github.com/alandtse/auth_capture_proxy/commit/9ff7b159e91902801345b95a0d9cdcf24e5a8d04))
 
 ## v1.0.2 (2021-08-10)
+
 ### Fix
-* Fix multiple cookie error in debug ([#17](https://github.com/alandtse/auth_capture_proxy/issues/17)) ([`f1cd671`](https://github.com/alandtse/auth_capture_proxy/commit/f1cd671b63dd495b2c90aefd51c59a8fbc004cae))
+
+- Fix multiple cookie error in debug ([#17](https://github.com/alandtse/auth_capture_proxy/issues/17)) ([`f1cd671`](https://github.com/alandtse/auth_capture_proxy/commit/f1cd671b63dd495b2c90aefd51c59a8fbc004cae))
 
 ## v1.0.1 (2021-05-01)
+
 ### Fix
-* Relax dependency versions ([`55c12ce`](https://github.com/alandtse/auth_capture_proxy/commit/55c12ce0ac96d232e1790824360d745ecbf27163))
+
+- Relax dependency versions ([`55c12ce`](https://github.com/alandtse/auth_capture_proxy/commit/55c12ce0ac96d232e1790824360d745ecbf27163))
 
 ## v1.0.0 (2021-04-27)
+
 ### Fix
-* Swap to httpx ([#13](https://github.com/alandtse/auth_capture_proxy/issues/13)) ([`311e998`](https://github.com/alandtse/auth_capture_proxy/commit/311e998b287dc445d002e5e1aceebe17e82adb65))
+
+- Swap to httpx ([#13](https://github.com/alandtse/auth_capture_proxy/issues/13)) ([`311e998`](https://github.com/alandtse/auth_capture_proxy/commit/311e998b287dc445d002e5e1aceebe17e82adb65))
 
 ### Breaking
-* API has changed due to use of httpx. Modifiers, test_url, and other items that access aiohttp ClientResponse will need to be fixed.  ([`311e998`](https://github.com/alandtse/auth_capture_proxy/commit/311e998b287dc445d002e5e1aceebe17e82adb65))
+
+- API has changed due to use of httpx. Modifiers, test_url, and other items that access aiohttp ClientResponse will need to be fixed. ([`311e998`](https://github.com/alandtse/auth_capture_proxy/commit/311e998b287dc445d002e5e1aceebe17e82adb65))
 
 ## v0.8.1 (2021-04-03)
+
 ### Fix
-* Export const ([#12](https://github.com/alandtse/auth_capture_proxy/issues/12)) ([`afc6b7c`](https://github.com/alandtse/auth_capture_proxy/commit/afc6b7c50dcaca8e8ff3811672ce8610c376974a))
+
+- Export const ([#12](https://github.com/alandtse/auth_capture_proxy/issues/12)) ([`afc6b7c`](https://github.com/alandtse/auth_capture_proxy/commit/afc6b7c50dcaca8e8ff3811672ce8610c376974a))
 
 ## v0.8.0 (2021-04-03)
+
 ### Feature
-* Allow disabling of header autogeneration ([#11](https://github.com/alandtse/auth_capture_proxy/issues/11)) ([`3eade2d`](https://github.com/alandtse/auth_capture_proxy/commit/3eade2deedf82c96bbf90724f5eee8c8a8a70234))
+
+- Allow disabling of header autogeneration ([#11](https://github.com/alandtse/auth_capture_proxy/issues/11)) ([`3eade2d`](https://github.com/alandtse/auth_capture_proxy/commit/3eade2deedf82c96bbf90724f5eee8c8a8a70234))
 
 ## v0.7.1 (2021-03-29)
+
 ### Fix
-* Fix filter on redirect detection ([#10](https://github.com/alandtse/auth_capture_proxy/issues/10)) ([`94fb40e`](https://github.com/alandtse/auth_capture_proxy/commit/94fb40e81b7a1cdb5c6cc85bad1d68c4802d9ff6))
+
+- Fix filter on redirect detection ([#10](https://github.com/alandtse/auth_capture_proxy/issues/10)) ([`94fb40e`](https://github.com/alandtse/auth_capture_proxy/commit/94fb40e81b7a1cdb5c6cc85bad1d68c4802d9ff6))
 
 ## v0.7.0 (2021-03-13)
+
 ### Feature
-* Add filter for check_redirects ([#6](https://github.com/alandtse/auth_capture_proxy/issues/6)) ([`144147a`](https://github.com/alandtse/auth_capture_proxy/commit/144147a365293541a763d4a8957b57d1ed2c7aaa))
+
+- Add filter for check_redirects ([#6](https://github.com/alandtse/auth_capture_proxy/issues/6)) ([`144147a`](https://github.com/alandtse/auth_capture_proxy/commit/144147a365293541a763d4a8957b57d1ed2c7aaa))
 
 ## v0.6.0 (2021-03-01)
+
 ### Feature
-* Change host when redirect detected ([`1d6fa10`](https://github.com/alandtse/auth_capture_proxy/commit/1d6fa10085a0f7ccd049caa2a0d3778c12a276fc))
+
+- Change host when redirect detected ([`1d6fa10`](https://github.com/alandtse/auth_capture_proxy/commit/1d6fa10085a0f7ccd049caa2a0d3778c12a276fc))
 
 ## v0.5.0 (2021-02-25)
+
 ### Feature
-* Process multipart/form-data ([#4](https://github.com/alandtse/auth_capture_proxy/issues/4)) ([`d9fc558`](https://github.com/alandtse/auth_capture_proxy/commit/d9fc558347df82f45330a76c04969d3e99b25717))
+
+- Process multipart/form-data ([#4](https://github.com/alandtse/auth_capture_proxy/issues/4)) ([`d9fc558`](https://github.com/alandtse/auth_capture_proxy/commit/d9fc558347df82f45330a76c04969d3e99b25717))
 
 ## v0.4.2 (2021-02-20)
+
 ### Fix
-* Bump dependencies ([`6e9dfd8`](https://github.com/alandtse/auth_capture_proxy/commit/6e9dfd89a059c3c272ad2be0ec4da3f6f439a0ce))
+
+- Bump dependencies ([`6e9dfd8`](https://github.com/alandtse/auth_capture_proxy/commit/6e9dfd89a059c3c272ad2be0ec4da3f6f439a0ce))
 
 ## v0.4.1 (2021-02-13)
+
 ### Fix
-* Expose prepend and swap_url ([`2ea2b16`](https://github.com/alandtse/auth_capture_proxy/commit/2ea2b16f07bbf15926de06efb56b15393f9d9196))
+
+- Expose prepend and swap_url ([`2ea2b16`](https://github.com/alandtse/auth_capture_proxy/commit/2ea2b16f07bbf15926de06efb56b15393f9d9196))
 
 ## v0.4.0 (2021-02-13)
 

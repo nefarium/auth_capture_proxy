@@ -4,8 +4,7 @@ title: auth_capture_proxy
 version: 1.2.1
 abstract: A Python project
 authors:
-  -
-    family-names: $${author.last#1}
-    given-names: $${author.first#1}
+    - family-names: $${author.last#1}
+      given-names: $${author.first#1}
 keywords: [""]
 date-released: $${today.zulu}
